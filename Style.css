@@ -1,0 +1,66 @@
+body{
+background-image:url(kanye.jpg);
+background-size: 1890px;
+}
+
+#box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#card{
+    display: flex;
+    width: 775px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(238, 138, 138, 0.35);
+    box-shadow: 0 10px 32px 0 rgba(54, 13, 13, 0.37);
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+#frase{
+
+    background: rgba(246, 255, 166, 0.35);
+    display: flex;
+    position:absolute;
+    margin-left: 50px;
+    margin-bottom: 250px;
+    margin-right: 50px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px;
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    
+
+}
+
+#btn{
+    background-color: rgba(150, 16, 11, 0.822);
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    width: 500px;
+    height: 100px;
+    margin-top: 450px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 150px;
+    border-radius: 30px;
+    border: 0cm;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: fantasy;
+    box-shadow: 0 9px rgb(82, 3, 3);
+}
+#btn:hover {background-color: rgba(114, 7, 4, 0.822)}
+
+#btn:active {
+    background-color: rgba(148, 7, 0, 0.822);
+    box-shadow: 0 5px rgb(82, 3, 3);
+    transform: translateY(4px);
+  }
