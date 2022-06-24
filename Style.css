@@ -8,6 +8,7 @@ background-size: 1890px;
   align-items: center;
   justify-content: center;
   margin-top: 100px;
+  max-width: 1150vh;
 }
 
 #card{
@@ -21,21 +22,25 @@ background-size: 1890px;
     -webkit-backdrop-filter: blur( 13.5px );
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.18);
+    max-width: 1150vh;
 }
 
 #frase{
-
+   
     background: rgba(246, 255, 166, 0.35);
     display: flex;
     position:absolute;
-    margin-left: 50px;
-    margin-bottom: 250px;
-    margin-right: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-bottom: 157px;
+    margin-right: 150px;
     border-radius: 20px;
     text-align: center;
     font-size: 40px;
     backdrop-filter: blur( 5.5px );
     -webkit-backdrop-filter: blur( 13.5px );
+    
     
 
 }
